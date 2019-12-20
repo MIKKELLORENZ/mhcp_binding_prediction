@@ -9,7 +9,7 @@ blosum 50 matrix. These functions, in essence, give prior knowledge regarding th
 models to enhance learning.
 
 # HOW TO RUN
-Download repository and run main.py located in 
+Download repository and run main.py located in the src folder
 
 # PERFORMANCE MEASURE:
 AUC and PCC
