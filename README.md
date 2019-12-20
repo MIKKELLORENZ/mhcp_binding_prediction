@@ -5,8 +5,7 @@ measurements of 35 alleles of MHC class I. The target value of the binding affin
 the equation 1 − log(a)/log(50.000) , to the measured IC50 affinity value in nM [3]. When discretizing the target values
 for AUC analysis, a threshold of 500nM was used as the reference value; IC50 < 500nM is classified as a binder,
 IC50 >= 500nM is a non-binder [1]. Preparation of the input was done by blosum encoding the sequences using the
-blosum 50 matrix. These functions, in essence, give prior knowledge regarding the substitution preferences for the
-models to enhance learning.
+blosum 50 matrix. 
 
 # HOW TO RUN
 Download repository and run main.py located in the src folder
