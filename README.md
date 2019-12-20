@@ -11,10 +11,10 @@ models to enhance learning.
 # HOW TO RUN
 Download repository and run main.py located in 
 
-#PERFORMANCE MEASURE:
+# PERFORMANCE MEASURE:
 AUC and PCC
 
-#CROSS VALIDATION:
+# CROSS VALIDATION:
 Cross Validation
 To find the optimal performance of a model trained on a dataset, cross validation is a means to do that. The data is split
 into separate training and test sets, where the training set has no overlap with the test set and the amount of these
@@ -24,14 +24,13 @@ set. All models were trained independently on one of these sets and validated on
 the end for each algorithm, five models were trained on each dataset. From the resulting model, the highest scoring one
 validated with AUC and PCC on the test set was chosen as the model that generalizes the best.
 
-#LIBRARY REQUIREMENTS:
+# LIBRARY REQUIREMENTS:
 Seaborn,
 PyTorch,
 Keras,
 Scipy stats,
 Pandas,
 Matplotlib
-
 
 [1]Trolle T, Metushi IG, Greenbaum JA, et al. Automated benchmarking of peptide-MHC class I binding predictions. Bioinfor-
 matics (Oxford, England) 2015;31:2174–2181.
