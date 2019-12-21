@@ -16,7 +16,6 @@ Download repository and run main.py located in the src folder
 AUC and PCC
 
 # CROSS VALIDATION:
-Cross Validation
 To find the optimal performance of a model trained on a dataset, cross validation is a means to do that. The data is split
 into separate training and test sets, where the training set has no overlap with the test set and the amount of these
 splits is called the fold of cross validation, i.e. in k-fold cross validation with k=5, one refers to as 5-fold cross validation.
@@ -33,6 +32,6 @@ Scipy stats,
 Pandas,
 Matplotlib
 
-# LITTERATURE & SOURCES
+# LITTERATURE & DATA SOURCES
 [1]Trolle T, Metushi IG, Greenbaum JA, et al. Automated benchmarking of peptide-MHC class I binding predictions. Bioinfor-
 matics (Oxford, England) 2015;31:2174–2181.
