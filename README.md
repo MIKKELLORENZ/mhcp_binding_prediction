@@ -12,14 +12,11 @@ Authors of this repository: Mikkel Vind Lorenz, Jonas Sindlinger, Oleksandr Maks
 # HOW TO RUN
 Download repository and run main.py located in the src folder
 
-# PERFORMANCE MEASURE:
+# PERFORMANCE MEASURES:
 AUC and PCC
 
 # CROSS VALIDATION:
-To find the optimal performance of a model trained on a dataset, cross validation is a means to do that. The data is split
-into separate training and test sets, where the training set has no overlap with the test set and the amount of these
-splits is called the fold of cross validation, i.e. in k-fold cross validation with k=5, one refers to as 5-fold cross validation.
-In the data used in this work, five such splits were already prepared, each with one training and one corresponding test
+In the data used in this work 5 k-fold cross validation splits was already prepared, each with one training and one corresponding test
 set. All models were trained independently on one of these sets and validated on the corresponding test set, such that in
 the end for each algorithm, five models were trained on each dataset. From the resulting model, the highest scoring one
 validated with AUC and PCC on the test set was chosen as the model that generalizes the best.
